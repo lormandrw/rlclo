@@ -1,5 +1,10 @@
+html {
+    height: 100%;
+}
+
 body {
-  margin-top: 52px;
+  height: 100%;
+  margin-top: 0px;
   background-color: black;
   color: black;
 }
@@ -17,8 +22,8 @@ a:active {
      color: white;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    max-height: 300px;
-    margin: auto;
+.fill { 
+    min-height: 100%;
+    height: 100%;
+    vertical-align:middle;
 }
