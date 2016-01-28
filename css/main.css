@@ -9,6 +9,11 @@ body {
   color: black;
 }
 
+.divBodyMain {
+color: #ffffff;
+margin-top: 70px;
+}
+
 a:link {
     color: white;
 }
